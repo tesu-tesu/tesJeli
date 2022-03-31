@@ -1,0 +1,64 @@
+<!DOCTYPE>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body style="background-color: pink;">
+	<div class="container-fluid p-5 text-white text-center" style="background-color: palevioletred;">
+		<h1>Project Calculator Project Progate</h1>
+		<h3>Anjely Widyastuti</h3>
+	</div>
+
+	<div class="container mt-5">
+		<div class="card-body">
+			<div class="Calculator">
+				<div class="row">
+					<div class="calculator-screen">
+						<input type="text" class="input" value="0" disabled />
+						<input type="text" class="operation" value="" disabled />
+					</div>
+				</div>
+				<div class="calculator-keys">
+					<div class="row">
+						<button class="col-md-4 all-clear">AC</button>
+						<button class="col-md-4 operator" value="%">%</button>
+						<button class="col-md-4 operator" value="/">&divide;</button>
+					</div>
+					<div class="row">
+						<button class="col-md-3 number" value="7">7</button>
+						<button class="col-md-3 number" value="8">8</button>
+						<button class="col-md-3 number" value="9">9</button>
+						<button class="col-md-3 operator" value="*">&times;</button>
+					</div>
+					<div class="row">
+						<button class="col-md-3 number" value="4">4</button>
+						<button class="col-md-3 number" value="5">5</button>
+						<button class="col-md-3 number" value="6">6</button>
+						<button class="col-md-3 operator" value="-">-</button>
+					</div>
+					<div class="row">
+						<button class="col-md-3 number" value="1">1</button>
+						<button class="col-md-3 number" value="2">2</button>
+						<button class="col-md-3 number" value="3">3</button>
+						<button class="col-md-3 operator" value="+">+</button>
+					</div>
+					<div class="row">
+						<button class="col-md-4 number zero-btn " value="0">0</button>
+						<button class="col-md-4 decimal" value=".">.</button>
+						<button class="col-md-4 equal-sign">=</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
